@@ -17,4 +17,4 @@ jobs:
         username: epiz_29050707
         port: 21
         password: ${{ secrets.PROD_FTP2 }}
-        server-dir: /
+        server-dir: /htdocs
