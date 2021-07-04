@@ -14,7 +14,7 @@ jobs:
       uses: SamKirkland/FTP-Deploy-Action@4.0.0
       with:
         server: ftpupload.net
-        username: epiz_29045278
+        username: epiz_29050707
         port: 21
         password: ${{ secrets.PROD_FTP2 }}
-        server-dir: /home/vol1_1/epizy.com/epiz_29045278/assape1410.epizy.com/
+        server-dir: /
