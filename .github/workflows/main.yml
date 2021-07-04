@@ -17,4 +17,4 @@ jobs:
         username: epiz_29045278
         port: 21
         password: ${{ secrets.PROD_FTP2 }}
-        server-dir: /assape1410.epizy.com/
+        server-dir: /
