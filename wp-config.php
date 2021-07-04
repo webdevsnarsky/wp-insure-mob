@@ -21,13 +21,13 @@
 // ** Параметры MySQL: Эту информацию можно получить у вашего хостинг-провайдера ** //
 $db_user = 'root';
 $db_password = 'root';
-$db_name = 'PFEhwnaErY';
+$db_name = 'epiz_29050707_assape';
 $db_host = 'localhost';
 
-if ($_SERVER['HTTP_HOST'] !== 'insurebound.local') {
-	$db_user = 'PFEhwnaErY';
-	$db_password = 'vqbltrBa38';
-	$db_host = 'remotemysql.com';
+if ($_SERVER['HTTP_HOST'] !== 'wp-insure-mob.local') {
+	$db_user = 'epiz_29050707';
+	$db_password = 'F9JfLcMsTJF5';
+	$db_host = 'sql209.epizy.com';
 }
 /** Имя базы данных для WordPress */
 define( 'DB_NAME', $db_name );
