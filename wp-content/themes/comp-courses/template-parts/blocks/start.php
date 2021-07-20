@@ -3,7 +3,6 @@
     <div class="start__inner">
       <h2 class="start__title title"><?php the_field('start_title') ?></h2>
       <p class="start__subtitle"><?php the_field('start_subtitle') ?></p>
-      <!-- <div class="start__results" style="--col-count:<?php the_field('start_count_col') ?>"> -->
       <?php $count = count(get_field('start_piramid')); ?>
       <div class="start__results" style="--col-count:<?php echo $count ?>">
         <?php if (have_rows('start_piramid')) : ?>
