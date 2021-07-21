@@ -24,7 +24,7 @@ function insure_scripts()
 	// wp_enqueue_script('insure-scripts', get_template_directory_uri() . '/assets/js/script.min.js', array(), null, true);
 	wp_enqueue_script('swiper-scripts', 'https://unpkg.com/swiper/swiper-bundle.min.js');
 	enqueue_versioned_script( 'insure-scripts', '/assets/js/script.min.js', array(), true);
-};
+}; 
 
 
 // подключаем принудительное обновление сайта
